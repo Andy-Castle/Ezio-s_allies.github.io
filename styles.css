@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: start;
+  text-align: center;
+  font-family: "Italiana", sans-serif;
+  background: url("./images/AC2_Memory_Corridor.webp");
+  background-size: cover;
+}
+
+.image-container {
+  width: 300px;
+  height: 244px;
+  margin: 0 32px 48px 0;
+  border: 3px solid black;
+  border-radius: 4px;
+  background-size: cover;
+}
+
+#ezio-photo {
+  background-image: url("./images/Ezio_Auditore_da_Firenze.webp");
+  background-size: cover;
+  width: 320px;
+  height: 100vh;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+#florence {
+  background-image: url("./images/florence-5208579_1280.jpg");
+}
+
+#florence:hover {
+  background-image: url("./images/AC2_DB_La_Volpe.webp");
+  background-size: 305px 500px;
+}
+
+#toscana {
+  background-image: url("./images/montepulciano-1639451_1280.jpg");
+}
+
+#toscana:hover {
+  background-image: url("./images/Zw-marioauditore.webp");
+  background-size: 305px 500px;
+}
+
+#venezia {
+  background-image: url("./images/canal-grande-4503656_1280.jpg");
+}
+
+#venezia:hover {
+  background-image: url("./images/Zw-rosa.webp");
+  background-size: 305px 500px;
+}
+
+#roma {
+  background-image: url("./images/rome-6207755_1280.jpg");
+}
+
+#roma:hover {
+  background-image: url("./images/Zw-niccolomachiavelli.webp");
+  background-size: 305px 500px;
+}
+
+.info-section {
+  margin: 0 auto;
+}
+
+.image-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+h2 {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  #ezio-photo {
+    background-image: none;
+    background-size: cover;
+    width: auto;
+    margin: 0;
+  }
+}
+
+p {
+  width: 650px;
+  text-align: center;
+  font-weight: bold;
+}
